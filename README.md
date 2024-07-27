@@ -2,7 +2,7 @@
 
 ## Описание
 
-Простая веб-страница, содержащая таблицу с информацией о банковских кредитах и возможность оформления заявки.
+Простая веб-страница, содержащая таблицу с информацией о банковских кредитах и возможность оформления заявки. Проект включает в себя фронтенд и бекенд часть, с использованием HTML, CSS, JavaScript и PHP.
 
 ## Использованные технологии
 
@@ -10,29 +10,52 @@
 - CSS3
 - SASS
 - JavaScript (ES6+)
-- PHP (необязательная часть)
+- PHP
 - Fetch API для AJAX-запросов
+- Docker
 
 ## Запуск проекта
+
+### С использованием Docker
+
+1. Убедитесь, что у вас установлены [Docker](https://www.docker.com/get-started) и [Docker Compose](https://docs.docker.com/compose/install/).
+
+2. Склонируйте репозиторий:
+   ```sh
+   git clone https://github.com/hell-llex/myfin-test.git
+   ```
+
+3. Перейдите в директорию проекта:
+   ```sh
+   cd myfin-test
+   ```
+
+4. Соберите и запустите контейнеры:
+   ```sh
+   npm start
+   ```
+
+5. Откройте браузер и перейдите по адресу `http://localhost:8000`, чтобы увидеть работу проекта.
+
+### Без использования Docker
 
 1. Склонируйте репозиторий:
    ```sh
    git clone https://github.com/hell-llex/myfin-test.git
    ```
+
 2. Перейдите в директорию проекта:
    ```sh
    cd myfin-test
    ```
 
-## Запуск с использованием Live Server
+3. Запуск с использованием Live Server:
+   1. Установите расширение [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) для Visual Studio Code.
+   2. Откройте проект в Visual Studio Code.
+   3. Кликните правой кнопкой мыши на `index.html` и выберите `Open with Live Server`.
 
-1. Установите расширение [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) для Visual Studio Code.
-2. Откройте проект в Visual Studio Code.
-3. Кликните правой кнопкой мыши на `index.html` и выберите `Open with Live Server`.
-
-## Запуск без использования Live Server
-
-1. Откройте файл `index.html` в браузере.
+4. Запуск без использования Live Server:
+   1. Откройте файл `index.html` в браузере.
 
 ## Инструкция по использованию
 
@@ -42,3 +65,5 @@
 
 ## Автор
 Александр Демещенко
+```
+Этот README.md файл теперь содержит более детальную информацию о проекте и инструкции по его запуску как с использованием Docker, так и без него.
