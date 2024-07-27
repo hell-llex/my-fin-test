@@ -1,0 +1,11 @@
+{
+  "name": "myfin-test",
+  "version": "1.0.0",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "docker-compose up"
+  },
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
+}
