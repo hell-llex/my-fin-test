@@ -14,11 +14,19 @@
 - Fetch API для AJAX-запросов
 - Docker
 
+## Требования
+
+Для запуска проекта необходимо:
+
+- [Node.js](https://nodejs.org/) (включая npm)
+- [Docker](https://www.docker.com/get-started)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
 ## Запуск проекта
 
 ### С использованием Docker
 
-1. Убедитесь, что у вас установлены [Docker](https://www.docker.com/get-started) и [Docker Compose](https://docs.docker.com/compose/install/).
+1. Убедитесь, что у вас установлены [Node.js](https://nodejs.org/), [Docker](https://www.docker.com/get-started) и [Docker Compose](https://docs.docker.com/compose/install/).
 
 2. Склонируйте репозиторий:
    ```sh
@@ -30,12 +38,14 @@
    cd myfin-test
    ```
 
-4. Соберите и запустите контейнеры:
+4. Убедитесь, что Docker запущен.
+
+5. Соберите и запустите контейнеры:
    ```sh
    npm start
    ```
 
-5. Откройте браузер и перейдите по адресу `http://localhost:8000`, чтобы увидеть работу проекта.
+6. Откройте браузер и перейдите по адресу `http://localhost:8000`, чтобы увидеть работу проекта.
 
 ### Без использования Docker
 
@@ -65,5 +75,3 @@
 
 ## Автор
 Александр Демещенко
-```
-Этот README.md файл теперь содержит более детальную информацию о проекте и инструкции по его запуску как с использованием Docker, так и без него.
